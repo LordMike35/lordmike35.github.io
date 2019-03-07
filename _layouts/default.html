@@ -6,24 +6,16 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
+			
+			{% include header.html %}
+			
+			<div class="main-container">
 			
 			{{ content }}
 			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:florianchmelar35@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/lordmike35">github.com/lordmike35</a></li>
-				</ul>
-			</footer>
+			</div>
+			
+			{% include footer.html %}
+			
 		</body>
 	</html>
