@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Florián Chmelar - LordMike35
+title: Florián Chmelár
 email: florianchmelar35gmail.com
 description: Hi ! My name is Florian Chmelar and this is my personal webpage.
 baseurl: ""
@@ -21,13 +21,11 @@ url: "https://lordmike35.github.io"
 # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: chmelardinho35
 github_username:  lordmike35
-permalink: /blog/:year/:month/:day/:title
-
 # Build settings
 markdown: kramdown
 #theme: minima
-#plugins:
-  #- jekyll-feed
+plugins:
+  - jemoji
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

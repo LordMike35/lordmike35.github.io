@@ -19,6 +19,14 @@ header, footer {
     padding: 10px;
 	color: black;
 }
+
+header h1 {
+	margin-left: 40px;
+	font-weight: bold;
+	font-size: 4em;
+}
+
+
 header ul, footer ul {
 	list-style: none;
     font-weight: bold;
@@ -34,6 +42,20 @@ header a, footer a {
 
 .main-container {
     margin: 50px;
+}
+
+.welcome-container h1 {
+	text-align: center;
+}
+
+.wp-container p {
+	font-size: 1em
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 a {
@@ -54,8 +76,27 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-	margin: 20px auto 40px; 
-    font-size: 1.5em;
+* {
+  box-sizing: border-box;
 }
 
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 75%;
+}
+
+.right {
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

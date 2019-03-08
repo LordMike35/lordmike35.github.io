@@ -1,0 +1,21 @@
+---
+layout: default
+---
+{% assign idol =  site.data.idols | sample %}
+
+<blockquote>
+Výber z idolov: <em>{{ idol.name }}</em> - {{ idol.description }}
+<blockquote/>
+
+<div class="row">
+  <div class="column left">
+    {{ content }}
+  </div>
+  <div class="column right">
+    {% for image in site.static_files %}
+		{% if image.path contains 'images/slider' %}
+			<img src="{{ site.baseurl }}{{ image.path }}" alt="image" width="100%" />
+		{% endif %}
+	{% endfor %}
+  </div>
+</div>
