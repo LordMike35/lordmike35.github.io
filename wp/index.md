@@ -26,3 +26,20 @@ dôležité atribúty.
 * **Zoznam použitej literatúry a zdrojov vrátane ich citácie v texte** - demonštrácia na začiatku prvej kapitoly
 * **Vloženie obrázku a tabuliek, odkazy na ne v texte; zoznam obrázkov a tabuliek v úvode alebo závere textu** - oba zoznamy boli korektne automaticky vygenerované
 * **Vytvorenie registra pojmov** - splnené (v pôvodnom dokumente nebol)
+
+### Zadanie 3
+#### Postup 
+Najskôr bolo potrebné vymyslieť z čoho bude prezentácia pozostávať. Rozhodli sme sa, že urobíme 5 typov slajdov - titulny, obyčajný textový, dvojstĺpcový textový,
+slajd s veľkým obrázkom a slajd s dvoma veľkými obrázkami. Následne sme si začali písať DTD validačný súbor a popritom vytvárali príklady na rôzne slajdy.
+Celkovo sme vytvorili 8 slajdov, ktorých validnosť sme si overili online nástrojov. 
+
+Pri tvorbe transformačného súboru do XHTML sme sa pokúsili mať napamäti rozumné používanie konštrukcie apply-templates, čo sa nám myslím podarilo. 
+Vzhľadom na časovú tieseň a našu neschopnosť v práci s CSS, výsledné slajdy vôbec nevyzerajú dobre (vyzerajú zle), avšak transformácia do html je podľa nášho
+názoru spravená korektne. 
+
+#### Vyjadrenie k požiadavkám zadania
+* **opis typu dokumentu + opis účelu navrhnutých elementov** - rozhodli sme sa použiť DTD
+* **vytvorenie ukážkovej XML prezentácie demonštrujúcej možnosti definície typu dokumentu** - 8 slajdová prezentácia demoštrujúca všetky nami navrhnuté konštrukcie
+* **základný návrh XSL transformácií, ich vhodnosť, parametrizácia** - parametrizácia absentuje, vhodnosť necháme na posúdenie iných
+* **vytvorenie XSLT pre konverziu prezentácie z XML** -> XHTML+CSS - xhtml sa podarilo, css nie
+* **vytvorenie XSLT pre konverziu prezentácie XML -> PDF** - X
