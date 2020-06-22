@@ -15,17 +15,16 @@
 # in the templates via {{ site.myvariable }}.
 title: Florián Chmelár
 email: florianchmelar35gmail.com
-description: Hi ! My name is Florian Chmelar and this is my personal webpage.
+description: Zdarec starec
 baseurl: ""
 url: "https://lordmike35.github.io" 
 # the base hostname & protocol for your site, e.g. http://example.com
-instagram_username: chmelardinho35
 github_username:  lordmike35
 # Build settings
 markdown: kramdown
 #theme: minima
-plugins:
-  - jemoji
+#plugins:
+#  - jemoji
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
